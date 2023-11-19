@@ -4,7 +4,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "nimble.buildlogic"
+group = "nexxtidea.buildlogic"
 
 // Configure the build-logic plugins to target JDK 17
 // This matches the JDK used to build the project, and is not related to what is running on device.
@@ -27,43 +27,43 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApplicationCompose") {
-            id = "nimble.android.application.compose"
+            id = "nexxtidea.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
         register("androidApplication") {
-            id = "nimble.android.application"
+            id = "nexxtidea.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidApplicationJacoco") {
-            id = "nimble.android.application.jacoco"
+            id = "nexxtidea.android.application.jacoco"
             implementationClass = "AndroidApplicationJacocoConventionPlugin"
         }
         register("androidLibraryCompose") {
-            id = "nimble.android.library.compose"
+            id = "nexxtidea.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("androidLibrary") {
-            id = "nimble.android.library"
+            id = "nexxtidea.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("androidFeature") {
-            id = "nimble.android.feature"
+            id = "nexxtidea.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
         }
         register("androidTest") {
-            id = "nimble.android.test"
+            id = "nexxtidea.android.test"
             implementationClass = "AndroidTestConventionPlugin"
         }
         register("androidHilt") {
-            id = "nimble.android.hilt"
+            id = "nexxtidea.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
         }
         register("androidRoom") {
-            id = "nimble.android.room"
+            id = "nexxtidea.android.room"
             implementationClass = "AndroidRoomConventionPlugin"
         }
         register("androidFlavors") {
-            id = "nimble.android.application.flavors"
+            id = "nexxtidea.android.application.flavors"
             implementationClass = "AndroidApplicationFlavorsConventionPlugin"
         }
     }

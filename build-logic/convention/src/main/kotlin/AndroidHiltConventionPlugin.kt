@@ -1,4 +1,4 @@
-import com.nimble.android.libs
+import com.nexxtidea.android.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies

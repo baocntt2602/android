@@ -1,10 +1,10 @@
 plugins {
-  id("nimble.android.library")
-  id("nimble.android.hilt")
+  id("nexxtidea.android.library")
+  id("nexxtidea.android.hilt")
 }
 
 android {
-  namespace = "com.nimble.sample.model"
+  namespace = "com.nexxtidea.sample.model"
 
   buildFeatures {
     buildConfig = true
@@ -22,4 +22,7 @@ dependencies {
   implementation(libs.appcompat)
   implementation(libs.kotlinx.serialization.json)
   implementation(libs.kotlinx.datetime)
+
+  implementation(libs.jackson.core)
+  implementation(libs.jackson.kotlin)
 }

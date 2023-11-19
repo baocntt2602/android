@@ -1,5 +1,5 @@
 import com.android.build.gradle.LibraryExtension
-import com.nimble.android.libs
+import com.nexxtidea.android.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -10,8 +10,8 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
   override fun apply(target: Project) {
     with(target) {
       pluginManager.apply {
-        apply("nimble.android.library")
-        apply("nimble.android.hilt")
+        apply("nexxtidea.android.library")
+        apply("nexxtidea.android.hilt")
       }
       extensions.configure<LibraryExtension> {
         defaultConfig {

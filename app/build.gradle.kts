@@ -1,19 +1,19 @@
 plugins {
-    id("nimble.android.application")
-    id("nimble.android.application.compose")
-    id("nimble.android.application.flavors")
-    id("nimble.android.hilt")
+    id("nexxtidea.android.application")
+    id("nexxtidea.android.application.compose")
+    id("nexxtidea.android.application.flavors")
+    id("nexxtidea.android.hilt")
 }
 
 android {
-    namespace = "com.nimble.survey.compose"
+    namespace = "com.nexxtidea.survey.compose"
 
   buildFeatures {
     buildConfig = true
   }
 
     defaultConfig {
-        applicationId = "com.nimble.survey.compose"
+        applicationId = "com.nexxtidea.survey.compose"
         versionCode = 1
         versionName = "1.0"
 
@@ -46,8 +46,7 @@ dependencies {
   api(project(":core:network"))
   api(project(":core:ui"))
   api(project(":core:utils"))
-  api(project(":data"))
-  api(project(":domain"))
+  api(project(":core:domain"))
 
   implementation(libs.kotlinx.coroutines.core)
   implementation(libs.kotlinx.coroutines.android)

@@ -1,5 +1,5 @@
 import com.google.devtools.ksp.gradle.KspExtension
-import com.nimble.android.libs
+import com.nexxtidea.android.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.tasks.InputDirectory

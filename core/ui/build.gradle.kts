@@ -1,10 +1,10 @@
 plugins {
-  id("nimble.android.library")
-  id("nimble.android.hilt")
+  id("nexxtidea.android.library")
+  id("nexxtidea.android.hilt")
 }
 
 android {
-  namespace = "com.nimble.sample.ui"
+  namespace = "com.nexxtidea.sample.ui"
 
   buildFeatures {
     buildConfig = true

@@ -17,11 +17,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "Survey"
 include(":app")
-include(":data")
-include(":domain")
+include(":core:domain")
 include(":core")
 include(":core:network")
 include(":core:model")
 include(":core:ui")
 include(":core:utils")
-include(":onboard")

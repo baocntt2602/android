@@ -1,12 +1,12 @@
 plugins {
-  id("nimble.android.library")
-  id("nimble.android.hilt")
+  id("nexxtidea.android.library")
+  id("nexxtidea.android.hilt")
   id("kotlinx-serialization")
   id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
-  namespace = "com.nimble.sample.core.network"
+  namespace = "com.nexxtidea.sample.core.network"
   buildFeatures {
     buildConfig = true
   }
@@ -34,6 +34,10 @@ dependencies {
   implementation(libs.retrofit.kotlin.serialization)
   implementation(libs.datastore.preferences)
   implementation(libs.security.crypto)
+
+  implementation(libs.jackson.core)
+  implementation(libs.jackson.kotlin)
+  implementation(libs.retrofit.converter.jackson)
 
   testImplementation(libs.junit)
   androidTestImplementation(libs.androidx.test.ext.junit)

@@ -1,5 +1,5 @@
 import com.android.build.gradle.LibraryExtension
-import com.nimble.android.configureAndroidCompose
+import com.nexxtidea.android.configureAndroidCompose
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.getByType

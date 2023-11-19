@@ -1,9 +1,9 @@
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.android.build.gradle.LibraryExtension
-import com.nimble.android.configureFlavors
-import com.nimble.android.configureKotlinAndroid
-import com.nimble.android.disableUnnecessaryAndroidTests
-import com.nimble.android.libs
+import com.nexxtidea.android.configureFlavors
+import com.nexxtidea.android.configureKotlinAndroid
+import com.nexxtidea.android.disableUnnecessaryAndroidTests
+import com.nexxtidea.android.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
